@@ -1,4 +1,4 @@
-# VerySimpleXNMMiningScript
+# OneLineXNMMiningScript
 
 This is a 'ONE LINE' script, just 
 
