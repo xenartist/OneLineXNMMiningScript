@@ -11,6 +11,7 @@ Easy.
 Default DevFee is 10. (1% Donate to https://github.com/woodysoil/XenblocksMiner/)
 
 ```
+sudo apt install screen && \
 screen -dmS miner && \
 screen -x miner -X stuff $'wget https://github.com/woodysoil/XenblocksMiner/releases/download/v1.2.1/xenblocksMiner-1.2.1-Linux.tar.gz && \
 tar -zxvf xenblocksMiner-1.2.1-Linux.tar.gz && \
