@@ -9,15 +9,15 @@ This is a 'ONE LINE' script, just
 
 Easy.
 
-Default DevFee is 10. (1% Donate to https://github.com/woodysoil/XenblocksMiner/)
+Default DevFee is 1. (0.1% Donate to https://github.com/woodysoil/XenblocksMiner/)
 
 ```
 sudo apt install screen && \
 screen -dmS miner && \
-screen -x miner -X stuff $'wget https://github.com/woodysoil/XenblocksMiner/releases/download/v1.3.1/xenblocksMiner-1.3.1-Linux.tar.gz && \
-tar -zxvf xenblocksMiner-1.3.1-Linux.tar.gz && \
+screen -x miner -X stuff $'wget https://github.com/woodysoil/XenblocksMiner/releases/download/v1.4.0/xenblocksMiner-1.4.0-Linux.tar.gz && \
+tar -zxvf xenblocksMiner-1.4.0-Linux.tar.gz && \
 chmod +x xenblocksMiner && \
-./xenblocksMiner --minerAddr YOUR_OWN_WALLET_ADDRESS --totalDevFee 10\n' && \
+./xenblocksMiner --minerAddr YOUR_OWN_WALLET_ADDRESS --totalDevFee 1\n' && \
 screen -x miner
 ```
 
